@@ -1,0 +1,399 @@
+logger=dashboard-service t=2026-04-10T00:57:52.180044+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T00:58:22.196927+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T01:44:17.393881+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T01:59:01.177712+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:23:44.224726+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:24:14.215993+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:24:44.223643+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:25:14.216829+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:25:44.214965+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:26:14.21678+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:26:44.216802+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:27:14.225252+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:27:44.227123+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:28:14.217014+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:28:44.217583+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:29:14.21991+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:29:44.221171+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:30:14.219798+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=cleanup t=2026-04-10T02:30:14.25219+05:30 level=info msg="Completed cleanup jobs" duration=31.92675ms
+logger=plugins.update.checker t=2026-04-10T02:30:15.455699+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=plugins.update.checker t=2026-04-10T02:30:15.457842+05:30 level=info msg="Update check succeeded" duration=409.202233ms
+logger=plugins.update.checker t=2026-04-10T02:30:15.457911+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=dashboard-service t=2026-04-10T02:30:44.219871+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=bleve-backend namespace=default group=dashboard.grafana.app resource=dashboards size=0 reason=getStats t=2026-04-10T02:30:57.278216+05:30 level=info msg="Building index using memory"
+logger=bleve-backend namespace=default group=dashboard.grafana.app resource=dashboards size=0 reason=getStats t=2026-04-10T02:30:57.283464+05:30 level=info msg="Finished building index" elapsed=4.93287ms listRV=1775723213336987
+logger=bleve-backend namespace=default group=dashboard.grafana.app resource=dashboards size=0 reason=getStats t=2026-04-10T02:30:57.284072+05:30 level=info msg="Storing index in cache" key="{Namespace:default Group:dashboard.grafana.app Resource:dashboards}" expiration=2026-04-10T02:40:57.284069+05:30
+logger=bleve-backend namespace=default group=folder.grafana.app resource=folders size=0 reason=getStats t=2026-04-10T02:30:57.293222+05:30 level=info msg="Building index using memory"
+logger=bleve-backend namespace=default group=folder.grafana.app resource=folders size=0 reason=getStats t=2026-04-10T02:30:57.294634+05:30 level=info msg="Finished building index" elapsed=1.342617ms listRV=1775723213335016
+logger=bleve-backend namespace=default group=folder.grafana.app resource=folders size=0 reason=getStats t=2026-04-10T02:30:57.295228+05:30 level=info msg="Storing index in cache" key="{Namespace:default Group:folder.grafana.app Resource:folders}" expiration=2026-04-10T02:40:57.295225+05:30
+logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories size=0 reason=getStats t=2026-04-10T02:30:57.297584+05:30 level=info msg="Building index using memory"
+logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories size=0 reason=getStats t=2026-04-10T02:30:57.298574+05:30 level=info msg="Finished building index" elapsed=937.163µs listRV=1
+logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories size=0 reason=getStats t=2026-04-10T02:30:57.299082+05:30 level=info msg="Storing index in cache" key="{Namespace:default Group:provisioning.grafana.app Resource:repositories}" expiration=2026-04-10T02:40:57.29908+05:30
+logger=infra.usagestats t=2026-04-10T02:30:57.299528+05:30 level=info msg="Usage stats are ready to report"
+logger=dashboard-service t=2026-04-10T02:31:14.22121+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:31:44.221338+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:32:14.22233+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:32:44.222227+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:33:14.229027+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:33:44.223164+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:34:14.224585+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:34:44.224067+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:35:14.225228+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:35:44.230449+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:36:14.238978+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:36:44.227542+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:37:14.233228+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:37:44.228071+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:38:14.235266+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:38:44.235086+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:39:14.239972+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:39:44.230514+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:40:14.234357+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=cleanup t=2026-04-10T02:40:14.282505+05:30 level=info msg="Completed cleanup jobs" duration=52.10252ms
+logger=plugins.update.checker t=2026-04-10T02:40:15.492283+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=plugins.update.checker t=2026-04-10T02:40:15.494268+05:30 level=info msg="Update check succeeded" duration=435.012334ms
+logger=plugins.update.checker t=2026-04-10T02:40:15.494402+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=dashboard-service t=2026-04-10T02:40:44.230914+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:41:14.231641+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:41:44.236783+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=bleve-backend t=2026-04-10T02:42:13.104611+05:30 level=info msg="index evicted from cache" reason=expired key="{Namespace:default Group:provisioning.grafana.app Resource:repositories}" storage=memory
+logger=bleve-backend t=2026-04-10T02:42:13.109488+05:30 level=info msg="index evicted from cache" reason=expired key="{Namespace:default Group:dashboard.grafana.app Resource:dashboards}" storage=memory
+logger=bleve-backend t=2026-04-10T02:42:13.110124+05:30 level=info msg="index evicted from cache" reason=expired key="{Namespace:default Group:folder.grafana.app Resource:folders}" storage=memory
+logger=dashboard-service t=2026-04-10T02:42:14.236247+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:42:44.231618+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:43:14.233227+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:43:44.239332+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:44:14.239755+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:44:44.234628+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:45:14.237096+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:45:44.238086+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:46:14.242042+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:46:44.239757+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:47:14.237927+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:47:44.238683+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:48:14.239895+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:48:44.241391+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:49:14.240229+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:49:44.239822+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:50:14.242959+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=cleanup t=2026-04-10T02:50:14.26968+05:30 level=info msg="Completed cleanup jobs" duration=28.79107ms
+logger=plugins.update.checker t=2026-04-10T02:50:15.437912+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=plugins.update.checker t=2026-04-10T02:50:15.439257+05:30 level=info msg="Update check succeeded" duration=368.549248ms
+logger=plugins.update.checker t=2026-04-10T02:50:15.439448+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=dashboard-service t=2026-04-10T02:50:44.242302+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:51:14.242819+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:51:44.243373+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:52:14.248251+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:52:44.243879+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:53:14.25004+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:53:44.247904+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:54:14.249705+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:54:44.2472+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:55:14.255289+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:55:44.246868+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:56:14.246711+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:56:44.255214+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:57:14.249032+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:57:44.247751+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:58:14.268018+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:58:44.274321+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:59:14.27597+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T02:59:44.276028+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T03:00:14.277442+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=licensing t=2026-04-10T03:00:14.290294+05:30 level=info msg="Validated license token" appURL=http://localhost:3000/ source=disk status=NotFound
+logger=licensing.renewal t=2026-04-10T03:00:14.291081+05:30 level=warn msg="failed to load or validate token" err="license token file not found: /Users/zop4412/Downloads/DemoApplication/grafana-12.4.2/data/license.jwt"
+logger=cleanup t=2026-04-10T03:00:14.309935+05:30 level=info msg="Completed cleanup jobs" duration=32.379556ms
+logger=bleve-backend namespace=default group=dashboard.grafana.app resource=dashboards size=0 reason=getStats t=2026-04-10T03:00:14.328446+05:30 level=info msg="Building index using memory"
+logger=bleve-backend namespace=default group=dashboard.grafana.app resource=dashboards size=0 reason=getStats t=2026-04-10T03:00:14.331046+05:30 level=info msg="Finished building index" elapsed=2.518636ms listRV=1775723213336987
+logger=bleve-backend namespace=default group=dashboard.grafana.app resource=dashboards size=0 reason=getStats t=2026-04-10T03:00:14.331513+05:30 level=info msg="Storing index in cache" key="{Namespace:default Group:dashboard.grafana.app Resource:dashboards}" expiration=2026-04-10T03:10:14.331511+05:30
+logger=bleve-backend namespace=default group=folder.grafana.app resource=folders size=0 reason=search t=2026-04-10T03:00:14.366043+05:30 level=info msg="Building index using memory"
+logger=bleve-backend namespace=default group=folder.grafana.app resource=folders size=0 reason=search t=2026-04-10T03:00:14.368046+05:30 level=info msg="Finished building index" elapsed=1.911073ms listRV=1775723213335016
+logger=bleve-backend namespace=default group=folder.grafana.app resource=folders size=0 reason=search t=2026-04-10T03:00:14.368125+05:30 level=info msg="Storing index in cache" key="{Namespace:default Group:folder.grafana.app Resource:folders}" expiration=2026-04-10T03:10:14.368123+05:30
+logger=plugins.update.checker t=2026-04-10T03:00:15.466653+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=plugins.update.checker t=2026-04-10T03:00:15.468608+05:30 level=info msg="Update check succeeded" duration=361.832967ms
+logger=plugins.update.checker t=2026-04-10T03:00:15.469172+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=dashboard-service t=2026-04-10T03:00:44.278797+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories size=0 reason=getStats t=2026-04-10T03:00:57.302259+05:30 level=info msg="Building index using memory"
+logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories size=0 reason=getStats t=2026-04-10T03:00:57.302756+05:30 level=info msg="Finished building index" elapsed=424.532µs listRV=1
+logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories size=0 reason=getStats t=2026-04-10T03:00:57.302824+05:30 level=info msg="Storing index in cache" key="{Namespace:default Group:provisioning.grafana.app Resource:repositories}" expiration=2026-04-10T03:10:57.302822+05:30
+logger=infra.usagestats t=2026-04-10T03:00:57.30323+05:30 level=info msg="Usage stats are ready to report"
+logger=dashboard-service t=2026-04-10T03:01:14.284852+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T03:01:44.280733+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T03:02:14.285375+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T03:02:44.28015+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T03:03:14.280815+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T03:03:44.280818+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T03:04:14.294454+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T03:04:44.283393+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T03:05:14.281364+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T03:05:44.283011+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T03:06:14.287982+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T03:06:44.287781+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T03:07:14.290085+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T03:07:44.284393+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T03:08:14.291306+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T03:08:44.286817+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T03:09:14.292287+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T03:09:44.28762+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T03:10:14.290916+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=cleanup t=2026-04-10T03:10:14.299596+05:30 level=info msg="Completed cleanup jobs" duration=11.622643ms
+logger=plugins.update.checker t=2026-04-10T03:10:15.558888+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=plugins.update.checker t=2026-04-10T03:10:15.559456+05:30 level=info msg="Update check succeeded" duration=442.838919ms
+logger=plugins.update.checker t=2026-04-10T03:10:15.559508+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=dashboard-service t=2026-04-10T03:10:44.29043+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T03:11:14.320318+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T03:11:44.290785+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=bleve-backend t=2026-04-10T05:01:24.026247+05:30 level=info msg="index evicted from cache" reason=expired key="{Namespace:default Group:provisioning.grafana.app Resource:repositories}" storage=memory
+logger=bleve-backend t=2026-04-10T05:01:24.036298+05:30 level=info msg="index evicted from cache" reason=expired key="{Namespace:default Group:dashboard.grafana.app Resource:dashboards}" storage=memory
+logger=bleve-backend t=2026-04-10T05:01:24.036404+05:30 level=info msg="index evicted from cache" reason=expired key="{Namespace:default Group:folder.grafana.app Resource:folders}" storage=memory
+logger=dashboard-service t=2026-04-10T05:01:25.166544+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:02:24.3498+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:23:54.975272+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:24:24.752545+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:24:54.749568+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:25:24.754451+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:25:54.760513+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:26:24.752354+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:26:54.757952+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:27:24.753945+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:27:54.756815+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:28:24.752754+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:28:54.760603+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:29:24.754693+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:29:54.75403+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:30:24.757104+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:30:54.765581+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=cleanup t=2026-04-10T06:30:54.80685+05:30 level=info msg="Completed cleanup jobs" duration=50.227047ms
+logger=plugins.update.checker t=2026-04-10T06:30:55.970192+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=plugins.update.checker t=2026-04-10T06:30:55.970654+05:30 level=info msg="Update check succeeded" duration=384.729022ms
+logger=plugins.update.checker t=2026-04-10T06:30:55.97076+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=dashboard-service t=2026-04-10T06:31:24.756043+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:31:54.765488+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:32:24.758104+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:32:54.763158+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:33:24.761023+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:33:54.758892+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:34:24.763564+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:34:54.766313+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:35:24.763181+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:35:54.760813+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:36:24.763633+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:36:54.768219+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:37:24.765095+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:37:54.763611+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:38:24.765516+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:38:54.763541+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:39:24.765181+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:39:54.765581+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:40:24.981964+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T06:51:10.588213+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=cleanup t=2026-04-10T06:51:10.643777+05:30 level=info msg="Completed cleanup jobs" duration=58.282266ms
+logger=plugins.update.checker t=2026-04-10T06:51:11.838584+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=plugins.update.checker t=2026-04-10T06:51:11.841083+05:30 level=info msg="Update check succeeded" duration=427.360679ms
+logger=plugins.update.checker t=2026-04-10T06:51:11.841348+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=dashboard-service t=2026-04-10T07:09:25.661552+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=bleve-backend namespace=default group=dashboard.grafana.app resource=dashboards size=0 reason=getStats t=2026-04-10T07:09:38.728282+05:30 level=info msg="Building index using memory"
+logger=bleve-backend namespace=default group=dashboard.grafana.app resource=dashboards size=0 reason=getStats t=2026-04-10T07:09:38.732401+05:30 level=info msg="Finished building index" elapsed=3.583502ms listRV=1775723213336987
+logger=bleve-backend namespace=default group=dashboard.grafana.app resource=dashboards size=0 reason=getStats t=2026-04-10T07:09:38.733214+05:30 level=info msg="Storing index in cache" key="{Namespace:default Group:dashboard.grafana.app Resource:dashboards}" expiration=2026-04-10T07:19:38.733208+05:30
+logger=bleve-backend namespace=default group=folder.grafana.app resource=folders size=0 reason=getStats t=2026-04-10T07:09:38.738972+05:30 level=info msg="Building index using memory"
+logger=bleve-backend namespace=default group=folder.grafana.app resource=folders size=0 reason=getStats t=2026-04-10T07:09:38.739828+05:30 level=info msg="Finished building index" elapsed=714.922µs listRV=1775723213335016
+logger=bleve-backend namespace=default group=folder.grafana.app resource=folders size=0 reason=getStats t=2026-04-10T07:09:38.739927+05:30 level=info msg="Storing index in cache" key="{Namespace:default Group:folder.grafana.app Resource:folders}" expiration=2026-04-10T07:19:38.739925+05:30
+logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories size=0 reason=getStats t=2026-04-10T07:09:38.74465+05:30 level=info msg="Building index using memory"
+logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories size=0 reason=getStats t=2026-04-10T07:09:38.745519+05:30 level=info msg="Finished building index" elapsed=739.607µs listRV=1
+logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories size=0 reason=getStats t=2026-04-10T07:09:38.745613+05:30 level=info msg="Storing index in cache" key="{Namespace:default Group:provisioning.grafana.app Resource:repositories}" expiration=2026-04-10T07:19:38.745609+05:30
+logger=infra.usagestats t=2026-04-10T07:09:38.74638+05:30 level=info msg="Usage stats are ready to report"
+logger=dashboard-service t=2026-04-10T07:09:55.666481+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:10:25.664267+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:10:55.664981+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:11:25.665172+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:11:55.6647+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:12:25.667052+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:12:55.664359+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:13:25.667215+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:13:55.665259+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:14:25.66829+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:14:55.669489+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:15:25.669424+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:15:55.673738+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:16:25.670213+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:16:55.67495+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:17:25.670801+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:17:55.675956+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:18:25.671418+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:18:55.686091+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=cleanup t=2026-04-10T07:18:55.688389+05:30 level=info msg="Completed cleanup jobs" duration=16.508247ms
+logger=plugins.update.checker t=2026-04-10T07:18:56.876018+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=plugins.update.checker t=2026-04-10T07:18:56.877567+05:30 level=info msg="Update check succeeded" duration=375.289106ms
+logger=plugins.update.checker t=2026-04-10T07:18:56.877639+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=dashboard-service t=2026-04-10T07:19:25.672653+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:19:55.679064+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:20:25.673477+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=bleve-backend t=2026-04-10T07:20:54.545695+05:30 level=info msg="index evicted from cache" reason=expired key="{Namespace:default Group:provisioning.grafana.app Resource:repositories}" storage=memory
+logger=bleve-backend t=2026-04-10T07:20:54.547682+05:30 level=info msg="index evicted from cache" reason=expired key="{Namespace:default Group:dashboard.grafana.app Resource:dashboards}" storage=memory
+logger=bleve-backend t=2026-04-10T07:20:54.547852+05:30 level=info msg="index evicted from cache" reason=expired key="{Namespace:default Group:folder.grafana.app Resource:folders}" storage=memory
+logger=dashboard-service t=2026-04-10T07:20:55.674335+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:21:25.673776+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:21:55.675886+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:22:25.67805+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:22:55.689895+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:23:25.678535+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:23:55.680013+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:24:25.679536+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T07:24:55.685377+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T08:58:58.25472+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T08:59:28.258566+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T09:11:12.202202+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T09:30:16.129178+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T09:45:41.377341+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T09:46:11.382523+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T09:46:41.382987+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=cleanup t=2026-04-10T09:47:11.427647+05:30 level=info msg="Completed cleanup jobs" duration=47.590802ms
+logger=dashboard-service t=2026-04-10T09:47:11.44297+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=plugins.update.checker t=2026-04-10T09:47:12.653573+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=plugins.update.checker t=2026-04-10T09:47:12.655043+05:30 level=info msg="Update check succeeded" duration=446.496204ms
+logger=plugins.update.checker t=2026-04-10T09:47:12.655315+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=dashboard-service t=2026-04-10T09:47:41.384583+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T09:48:11.382934+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T09:48:41.385259+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T10:04:07.48989+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T10:11:52.695734+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T10:12:22.698814+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T10:12:52.75182+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T10:13:22.703012+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T10:15:28.869433+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T10:15:58.757545+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:18:53.264954+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:19:23.06411+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:21:24.016257+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:36:03.178009+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:36:33.164531+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:37:03.166733+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:37:33.165657+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:38:03.171111+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:38:33.16774+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=licensing t=2026-04-10T11:39:03.176903+05:30 level=info msg="Validated license token" appURL=http://localhost:3000/ source=disk status=NotFound
+logger=licensing.renewal t=2026-04-10T11:39:03.178114+05:30 level=warn msg="failed to load or validate token" err="license token file not found: /Users/zop4412/Downloads/DemoApplication/grafana-12.4.2/data/license.jwt"
+logger=dashboard-service t=2026-04-10T11:39:03.198357+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=cleanup t=2026-04-10T11:39:03.214951+05:30 level=info msg="Completed cleanup jobs" duration=45.170368ms
+logger=plugins.update.checker t=2026-04-10T11:39:04.906096+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=plugins.update.checker t=2026-04-10T11:39:04.910589+05:30 level=info msg="Update check succeeded" duration=913.896723ms
+logger=plugins.update.checker t=2026-04-10T11:39:04.91069+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=dashboard-service t=2026-04-10T11:39:33.170104+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=bleve-backend namespace=default group=dashboard.grafana.app resource=dashboards size=0 reason=getStats t=2026-04-10T11:39:46.213921+05:30 level=info msg="Building index using memory"
+logger=bleve-backend namespace=default group=dashboard.grafana.app resource=dashboards size=0 reason=getStats t=2026-04-10T11:39:46.217184+05:30 level=info msg="Finished building index" elapsed=2.713292ms listRV=1775723213336987
+logger=bleve-backend namespace=default group=dashboard.grafana.app resource=dashboards size=0 reason=getStats t=2026-04-10T11:39:46.217257+05:30 level=info msg="Storing index in cache" key="{Namespace:default Group:dashboard.grafana.app Resource:dashboards}" expiration=2026-04-10T11:49:46.217254+05:30
+logger=bleve-backend namespace=default group=folder.grafana.app resource=folders size=0 reason=getStats t=2026-04-10T11:39:46.225412+05:30 level=info msg="Building index using memory"
+logger=bleve-backend namespace=default group=folder.grafana.app resource=folders size=0 reason=getStats t=2026-04-10T11:39:46.226276+05:30 level=info msg="Finished building index" elapsed=817.423µs listRV=1775723213335016
+logger=bleve-backend namespace=default group=folder.grafana.app resource=folders size=0 reason=getStats t=2026-04-10T11:39:46.226337+05:30 level=info msg="Storing index in cache" key="{Namespace:default Group:folder.grafana.app Resource:folders}" expiration=2026-04-10T11:49:46.226335+05:30
+logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories size=0 reason=getStats t=2026-04-10T11:39:46.228813+05:30 level=info msg="Building index using memory"
+logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories size=0 reason=getStats t=2026-04-10T11:39:46.231597+05:30 level=info msg="Finished building index" elapsed=2.740415ms listRV=1
+logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories size=0 reason=getStats t=2026-04-10T11:39:46.23164+05:30 level=info msg="Storing index in cache" key="{Namespace:default Group:provisioning.grafana.app Resource:repositories}" expiration=2026-04-10T11:49:46.231638+05:30
+logger=infra.usagestats t=2026-04-10T11:39:46.232366+05:30 level=info msg="Usage stats are ready to report"
+logger=dashboard-service t=2026-04-10T11:50:18.482729+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:50:48.482078+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:51:18.483773+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:51:48.482527+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:52:18.482863+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:52:48.48229+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:53:18.48474+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:53:48.482739+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:54:18.483981+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:54:48.483291+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:55:18.485364+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:55:48.485487+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:56:18.484009+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:56:48.487048+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:57:18.486851+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:57:48.48882+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:58:18.486883+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:58:48.488721+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T11:59:18.490596+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=cleanup t=2026-04-10T11:59:18.515106+05:30 level=info msg="Completed cleanup jobs" duration=26.508978ms
+logger=plugins.update.checker t=2026-04-10T11:59:19.824221+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=plugins.update.checker t=2026-04-10T11:59:19.825401+05:30 level=info msg="Update check succeeded" duration=508.633201ms
+logger=plugins.update.checker t=2026-04-10T11:59:19.825502+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=dashboard-service t=2026-04-10T11:59:48.490018+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:00:18.487908+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:00:48.491266+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=bleve-backend t=2026-04-10T12:01:17.362115+05:30 level=info msg="index evicted from cache" reason=expired key="{Namespace:default Group:dashboard.grafana.app Resource:dashboards}" storage=memory
+logger=bleve-backend t=2026-04-10T12:01:17.368956+05:30 level=info msg="index evicted from cache" reason=expired key="{Namespace:default Group:folder.grafana.app Resource:folders}" storage=memory
+logger=bleve-backend t=2026-04-10T12:01:17.369051+05:30 level=info msg="index evicted from cache" reason=expired key="{Namespace:default Group:provisioning.grafana.app Resource:repositories}" storage=memory
+logger=dashboard-service t=2026-04-10T12:01:18.495444+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:01:48.492377+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:02:18.490563+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:02:48.492287+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:03:18.491842+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:03:48.494864+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:04:18.514721+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:04:48.498288+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:05:18.497912+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:05:48.494474+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:06:18.495232+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:06:48.497107+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:07:18.49999+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:07:48.49788+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:08:18.500633+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:08:48.498176+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:09:18.502103+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=cleanup t=2026-04-10T12:09:18.568338+05:30 level=info msg="Completed cleanup jobs" duration=69.619893ms
+logger=plugins.update.checker t=2026-04-10T12:09:19.80401+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=plugins.update.checker t=2026-04-10T12:09:19.807034+05:30 level=info msg="Update check succeeded" duration=478.091756ms
+logger=plugins.update.checker t=2026-04-10T12:09:19.807175+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=dashboard-service t=2026-04-10T12:09:48.501977+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:10:18.501246+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:10:48.502651+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:11:18.503463+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:11:48.502086+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:12:18.503278+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:12:48.501607+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:13:18.503721+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:13:48.50371+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:14:18.522605+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:14:48.528681+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:15:18.519478+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:15:48.527385+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:16:18.517559+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:16:48.515229+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:17:18.516842+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:17:48.518359+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:18:18.521572+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:18:48.548224+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:19:18.539794+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=cleanup t=2026-04-10T12:19:18.558594+05:30 level=info msg="Completed cleanup jobs" duration=38.829673ms
+logger=plugins.update.checker t=2026-04-10T12:19:20.172864+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=plugins.update.checker t=2026-04-10T12:19:20.174802+05:30 level=info msg="Update check succeeded" duration=825.202866ms
+logger=plugins.update.checker t=2026-04-10T12:19:20.174896+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=dashboard-service t=2026-04-10T12:19:48.518982+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=bleve-backend namespace=default group=dashboard.grafana.app resource=dashboards size=0 reason=getStats t=2026-04-10T12:20:01.577031+05:30 level=info msg="Building index using memory"
+logger=bleve-backend namespace=default group=dashboard.grafana.app resource=dashboards size=0 reason=getStats t=2026-04-10T12:20:01.580681+05:30 level=info msg="Finished building index" elapsed=3.328656ms listRV=1775723213336987
+logger=bleve-backend namespace=default group=dashboard.grafana.app resource=dashboards size=0 reason=getStats t=2026-04-10T12:20:01.580751+05:30 level=info msg="Storing index in cache" key="{Namespace:default Group:dashboard.grafana.app Resource:dashboards}" expiration=2026-04-10T12:30:01.580749+05:30
+logger=bleve-backend namespace=default group=folder.grafana.app resource=folders size=0 reason=getStats t=2026-04-10T12:20:01.589819+05:30 level=info msg="Building index using memory"
+logger=bleve-backend namespace=default group=folder.grafana.app resource=folders size=0 reason=getStats t=2026-04-10T12:20:01.591741+05:30 level=info msg="Finished building index" elapsed=1.816451ms listRV=1775723213335016
+logger=bleve-backend namespace=default group=folder.grafana.app resource=folders size=0 reason=getStats t=2026-04-10T12:20:01.592334+05:30 level=info msg="Storing index in cache" key="{Namespace:default Group:folder.grafana.app Resource:folders}" expiration=2026-04-10T12:30:01.592332+05:30
+logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories size=0 reason=getStats t=2026-04-10T12:20:01.595976+05:30 level=info msg="Building index using memory"
+logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories size=0 reason=getStats t=2026-04-10T12:20:01.597428+05:30 level=info msg="Finished building index" elapsed=1.344483ms listRV=1
+logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories size=0 reason=getStats t=2026-04-10T12:20:01.598028+05:30 level=info msg="Storing index in cache" key="{Namespace:default Group:provisioning.grafana.app Resource:repositories}" expiration=2026-04-10T12:30:01.598022+05:30
+logger=infra.usagestats t=2026-04-10T12:20:01.599904+05:30 level=info msg="Usage stats are ready to report"
+logger=dashboard-service t=2026-04-10T12:20:18.519816+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:20:48.5214+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:21:18.522688+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:21:48.522274+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:22:18.538114+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:22:48.521959+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:23:18.525767+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:23:48.523648+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:24:18.526394+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:24:48.5276+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:25:18.540081+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:25:48.525735+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:26:18.527424+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:26:48.526598+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:27:18.530639+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:27:48.528453+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:28:18.53201+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:28:48.532772+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=dashboard-service t=2026-04-10T12:29:18.562322+05:30 level=info msg="No last resource version found, starting from scratch" orgID=1
+logger=cleanup t=2026-04-10T12:29:18.585459+05:30 level=info msg="Completed cleanup jobs" duration=55.369642ms
+logger=plugins.update.checker t=2026-04-10T12:29:20.088138+05:30 level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+logger=plugins.update.checker t=2026-04-10T12:29:20.089338+05:30 level=info msg="Update check succeeded" duration=730.615366ms
