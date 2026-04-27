@@ -2,6 +2,7 @@ package com.example.shop.service;
 
 import com.example.shop.dto.ProductRequest;
 import com.example.shop.entity.Product;
+import com.example.shop.exception.ProductNotFoundException;
 import com.example.shop.repository.ProductRepository;
 import org.springframework.stereotype.Service;
 
@@ -27,12 +28,13 @@ public class ProductService {
     }
 
     public Product getById(Long id){
-        return productRepository.findById(id).orElse(null);
+        return productRepository.findById(id)
+                .orElseThrow(() -> new ProductNotFoundException("Product not found with id: " + id));
     }
 
     public Product update(Long id, ProductRequest request) {
-        Product product = productRepository.findById(id).orElse(null);
-        if (product == null) return null;
+        Product product = productRepository.findById(id)
+                .orElseThrow(() -> new ProductNotFoundException("Product not found with id: " + id));
 
         product.setProductName(request.getProductName());
         product.setCategoryId(request.getCategoryId());
@@ -43,15 +45,11 @@ public class ProductService {
     }
 
     public void delete(Long id) {
-        Product product = productRepository.findById(id).orElse(null);
-        if (product != null) {
-            product.setActive(false);
-            productRepository.save(product);
-        }
+        Product product = productRepository.findById(id)
+                .orElseThrow(() -> new ProductNotFoundException("Product not found with id: " + id));
+        product.setActive(false);
+        productRepository.save(product);
     }
-
-
-
 }
 
 

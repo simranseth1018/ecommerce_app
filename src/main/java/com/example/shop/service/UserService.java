@@ -1,6 +1,7 @@
 package com.example.shop.service;
 
 import com.example.shop.entity.User;
+import com.example.shop.exception.UserNotFoundException;
 import com.example.shop.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
@@ -29,16 +30,17 @@ public class UserService {
     }
 
     public User getById(String id) {
-        return userRepository.findById(id).orElse(null);
+        return userRepository.findById(id).orElseThrow(() -> new UserNotFoundException("User not found with Id: " +id));
     }
 
     public User getByEmail(String email) {
-        return userRepository.findByEmail(email).orElse(null);
+        return userRepository.findByEmail(email)
+                .orElseThrow(() -> new UserNotFoundException("User not found with email: " + email));
     }
 
     public User update(String id, User updated) {
-        User user = userRepository.findById(id).orElse(null);
-        if (user == null) return null;
+        User user = userRepository.findById(id)
+                .orElseThrow(() -> new UserNotFoundException("User not found with id: " + id));
 
         user.setUserName(updated.getUserName());
         user.setEmail(updated.getEmail());
@@ -49,11 +51,10 @@ public class UserService {
     }
 
     public void delete(String id) {
-        User user = userRepository.findById(id).orElse(null);
-        if (user != null) {
-            user.setActive(false);
-            user.setDeletedAt(LocalDateTime.now().toString());
-            userRepository.save(user);
-        }
+        User user = userRepository.findById(id)
+                .orElseThrow(() -> new UserNotFoundException("User not found with id: " + id));
+        user.setActive(false);
+        user.setDeletedAt(LocalDateTime.now().toString());
+        userRepository.save(user);
     }
 }
